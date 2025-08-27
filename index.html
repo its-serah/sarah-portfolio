@@ -66,6 +66,20 @@
         .stagger-animation {
             animation-delay: calc(var(--stagger-delay, 0) * 0.1s);
         }
+        
+        /* Custom cursorbow cursor */
+        * {
+            cursor: url('assets/images/cursorbow.png'), auto !important;
+        }
+        
+        /* Specific cursors for interactive elements */
+        a, button, .btn, input[type="submit"], input[type="button"] {
+            cursor: url('assets/images/cursorbow.png'), pointer !important;
+        }
+        
+        input, textarea {
+            cursor: url('assets/images/cursorbow.png'), text !important;
+        }
     </style>
 </head>
 
